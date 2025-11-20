@@ -1,0 +1,133 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI GPU Cloud - Home</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #f3f4f6;
+        }.navbar {
+        width: 100%;
+        background: #111827;
+        color: white;
+        padding: 15px 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        z-index: 100;
+    }
+
+    .navbar h2 { margin: 0; }
+
+    .navbar a {
+        color: #e5e7eb;
+        text-decoration: none;
+        margin-left: 20px;
+        font-size: 16px;
+    }
+
+    .navbar a:hover { color: white; }
+
+    .hero {
+        margin-top: 90px;
+        text-align: center;
+        padding: 80px 20px;
+        background: white;
+    }
+
+    .hero h1 { font-size: 42px; margin-bottom: 20px; }
+
+    .hero p { font-size: 18px; color: #555; }
+
+    .btn {
+        padding: 12px 20px;
+        background: #2563eb;
+        color: white;
+        border-radius: 8px;
+        text-decoration: none;
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+    .btn:hover { background: #1d4ed8; }
+
+    .plans { padding: 40px; }
+
+    .plans h2 { text-align: center; margin-bottom: 30px; }
+
+    .gpu-box {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+    }
+
+    .gpu-card {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        text-align: center;
+    }
+
+    .footer {
+        background: #111827;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+    }
+</style>
+
+</head>
+<body>
+    <div class="navbar">
+        <h2>AI GPU Cloud</h2>
+        <div>
+            <a href="#">Home</a>
+            <a href="#">Dashboard</a>
+            <a href="#">GPU Plans</a>
+            <a href="#">Login</a>
+        </div>
+    </div><div class="hero">
+    <h1>Rent Powerful GPUs for Your AI Projects</h1>
+    <p>Fast • Affordable • Ready in Seconds</p>
+    <a href="#" class="btn">View GPU Dashboard</a>
+</div>
+
+<div class="plans">
+    <h2>Top GPUs</h2>
+    <div class="gpu-box">
+        <div class="gpu-card">
+            <h3>RTX 4090</h3>
+            <p>24 GB VRAM</p>
+            <p>₹150 / hour</p>
+            <a href="#" class="btn">Start Now</a>
+        </div>
+
+        <div class="gpu-card">
+            <h3>A100 (40GB)</h3>
+            <p>40 GB VRAM</p>
+            <p>₹300 / hour</p>
+            <a href="#" class="btn">Start Now</a>
+        </div>
+
+        <div class="gpu-card">
+            <h3>H100 (80GB)</h3>
+            <p>80 GB VRAM</p>
+            <p>₹900 / hour</p>
+            <a href="#" class="btn">Start Now</a>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    © 2025 AI GPU Cloud • All Rights Reserved
+</div>
+
+</body>
+</html>
